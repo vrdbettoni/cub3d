@@ -1,0 +1,23 @@
+R 1200 800
+
+NO ./textures/brick.xpm
+SO ./textures/metal.xpm
+EA./textures/wood.xpm
+WE ./textures/stone.xpm
+
+S ./textures_hi/eye.xpm
+
+C 123, 456, 789
+F 10,10,10
+
+11111111111
+10010000001
+10010000001
+10000000001
+10000000011
+10000W00011
+10000000001
+10000000001
+10000000001
+10002220001
+11111111111
