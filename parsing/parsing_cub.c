@@ -73,10 +73,8 @@ void		parsing_path(t_init *cub, char *line)
 
 void		find_what(t_init *cub, char *line, int fd)
 {
-	int		i;
 	char	c;
 
-	i = 0;
 	c = *line;
 	(*line == 'N' && line[1] == 'O') ? parsing_path(cub, line) : 0;
 	(*line == 'S' && line[1] == 'O') ? parsing_path(cub, line) : 0;
@@ -94,9 +92,9 @@ t_init		*main_parsing(char *nom_fichier)
 	t_init		*cub;
 	char		*line;
 	int			fd;
-	int			ret;
+	// int			ret;
 
-	ret = 0;
+	// ret = 0;
 	line = NULL;
 	(fd = open(nom_fichier, O_RDONLY)) < 0 ? ft_printf("Err : file name\n") : 0;
 	if (fd < 0)

@@ -15,9 +15,7 @@
 
 void		next_number(char **str)
 {
-	int		i;
 
-	i = 0;
 	while (**str >= '0' && **str <= '9')
 		*str += 1;
 	while (!(**str >= '0' && **str <= '9'))
